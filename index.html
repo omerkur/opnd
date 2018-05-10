@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Find My University and Course</title>
+    <!-- Bootstrap core CSS-->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template-->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="OMER.css" />
+    <!-- Page level plugin CSS-->
+    <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin.css" rel="stylesheet">
+</head>
+
+<body class="fixed-nav sticky-footer bg-dark" id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+        <a class="navbar-brand" href="#home">Find My University and Course</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
+
+                <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Home">
+                    <a class="nav-link" href="#home">
+            <i class="fa fa-fw fa-home"></i>
+            <span class="nav-link-text">Home Page</span>
+          </a>
+                </li>
+                <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+                    <a class="nav-link" href="#compare-uni">
+            <i class="fa fa-university"></i>
+            <span class="nav-link-text">Compare Universities</span>
+          </a>
+                </li>
+                <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
+                    <a class="nav-link" href="#rankings">
+            <i class="fa fa-list-ol"></i>
+            <span class="nav-link-text">Rankings</span>
+          </a>
+                </li>
+                <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
+                    <a class="nav-link" href="#statistics">
+            <i class="fa fa-table"></i>
+            <span class="nav-link-text">Statistics</span>
+          </a>
+                </li>
+                <li class="nav-item" data-toggle="tooltip" data-placement="right" title="City">
+                    <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseMulti" data-parent="#exampleAccordion">
+            <i class="fa fa-map"></i>
+            <span class="nav-link-text">City</span>
+          </a>
+                    <ul class="sidenav-second-level collapse" id="collapseMulti" style="max-height: 50vh; overflow-y: auto;">
+                        <li>
+                            <a href="#city">Belfast</a>
+                        </li>
+                        <li>
+                            <a href="#city">Birmingham</a>
+                        </li>
+                        <li>
+                            <a href="#city">Bristol</a>
+                        </li>
+                        <li>
+                            <a href="#city">Cambridge</a>
+                        </li>
+                        <li>
+                            <a href="#city">Cardiff</a>
+                        </li>
+                        <li>
+                            <a href="#city">Edinburgh</a>
+                        </li>
+                        <li>
+                            <a href="#city">Exeter</a>
+                        </li>
+                        <li>
+                            <a href="#city">Glasgow</a>
+                        </li>
+                        <li>
+                            <a href="#city">London</a>
+                        </li>
+                        <li>
+                            <a href="#city">Leeds</a>
+                        </li>
+                        <li>
+                            <a href="#city">Liverpool</a>
+                        </li>
+                        <li>
+                            <a href="#city">Manchester</a>
+                        </li>
+                        <li>
+                            <a href="#city">Nottingham</a>
+                        </li>
+                        <li>
+                            <a href="#city">Oxford</a>
+                        </li>
+                        <li>
+                            <a href="#city">Sheffield</a>
+                        </li>
+                        <li>
+                            <a href="#city">Southampton</a>
+                        </li>
+                        <li>
+                            <a href="#city">Warwick</a>
+                        </li>
+                        <li>
+                            <a href="#city">York</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Link">
+                    <a class="nav-link" href="#source">
+            <i class="fa fa-fw fa-link"></i>
+            <span class="nav-link-text">Data Sources</span>
+          </a>
+                </li>
+            </ul>
+            <ul class="navbar-nav sidenav-toggler">
+                <li class="nav-item">
+                    <a class="nav-link text-center" id="sidenavToggler">
+            <i class="fa fa-fw fa-angle-left"></i>
+          </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="content-wrapper">
+        <div class="container-fluid">
+        </div>
+        <div id="hide-and-seek">
+            <!--------------------------HOME----------------------------------->
+            <div id="home">
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fa fa-fw fa-home"></i>Welcome</div>
+                    <div class="card-body">
+                        <h1>Welcome</h1>
+                        <p>
+                            Welcome to 'Find my University and Course' Website.
+                        </p>
+                    </div>
+                    <div class="card-footer small text-muted">
+
+                    </div>
+                </div>
+            </div>
+
+            <!--------------------------END HOME---------------------------->
+            <!--------------------------COMPARE-UNI----------------------------------->
+            <div id="compare-uni">
+                <div class="container-full" id="university-compare">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    <i class="fa fa-university"></i> University</div>
+                                <div class="card-body">
+                                                <div class="container">
+                                        <div class="row">
+                                            <div class="col">
+                                                <form class="form-inline my-2 my-lg-0 mr-lg-2">
+                                                    <div class="input-group">
+                                                        <input class="form-control" type="text" placeholder="Search a University...">
+                                                        <span class="input-group-append">
+                <button class="btn btn-primary" type="button">
+                  <i class="fa fa-search"></i>
+                </button>
+              </span>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="col">
+                                                <form class="form-inline my-2 my-lg-0 mr-lg-2">
+                                                    <div class="input-group">
+                                                        <input class="form-control" type="text" placeholder="Search a Course...">
+                                                        <span class="input-group-append">
+                <button class="btn btn-primary" type="button">
+                  <i class="fa fa-search"></i>
+                </button>
+              </span>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text">
+                                        <p>
+                                            Xxx xxxxxxx xxxxxxx xxx xx xxxxxx xxxxxx xxxxx xxxxx xxxxxx xxxx xxxxxx. Xxxxxxx xxxxx xxxxx xxxxxxx xxxxx xx xxxxxx xx xxxxxxx xxxxxx xx xxxx xxxxxx. Xxxxxxxx xxx xxxxx xxx xxxxxx xxxx xxx xxxxxxx. Xxxxxx xxxxx xxx xxxxx xxxx xxxxx xxxx xx. Xxxx xxxxxx xxx xxxxx xxxxxxx xxxxxxx xxxxx xxxxxx xxxxxx xxxxx xxx xxxxx xxxxx xxxx xxxxxx. Xxx xxxx xxxx xx xxxx xx xx xx xxx xxxxxx xxxx xxxxxxx xx xxxxx. Xxx xxx xxxx xxxxx xx xxx xx.
+                                        </p>
+                                        <p>
+                                            Xxx xx xxxxx xxx xxxxx xxx xxxx xxx xxxxxx xxxxxxx xxx xxx xxxxxxx xxxx. Xxxx xx xxxxxx xx xxx xxx xxx xxx. Xxxxx xxxxxxx xxxxx xxxxxx xxxxxxx xxxxx xxxxxxx xxxxxx xxxxx xxxx xxxxxxx xx. Xxxxxxx xxxx xxxxx xxx xxxxx xxxxxx xx xxxxxxx xxxxxxx xxx. Xxx xxx xxxx xxxxxxx xxxx xxxxxx xxxx xx xxxxx xxxxxxx xxxxxxx xxxxx xxxx. Xxxxxxx xx xxx xxx xxx xx xxxxx xxxxx xxxxx. Xxxxxxxx xxx xxxxxxx xxx xxx xxx xxx xxxxxxx xxxxx. Xxxxxxx xx xxxx xx xx xx xx xxxxxxx xxxxx xxxxx xxxxxx xxxxxxx xxxxx xxxxxxx. Xxxx xxxxxxx xxxxxxx xxxxx xxxxx xxxxxx xxxxxx xxxxxx xxxxxx xxxxxxx xxxxxxx xxxxxxx xxx xxxxxxx xxxxx xxxxxxx.
+                                        </p>
+                                        <p>
+                                            Xxx xxxxxxx xxxxxxx xxx xx xxxxxx xxxxxx xxxxx xxxxx xxxxxx xxxx xxxxxx. Xxxxxxx xxxxx xxxxx xxxxxxx xxxxx xx xxxxxx xx xxxxxxx xxxxxx xx xxxx xxxxxx. Xxxxxxxx xxx xxxxx xxx xxxxxx xxxx xxx xxxxxxx. Xxxxxx xxxxx xxx xxxxx xxxx xxxxx xxxx xx. Xxxx xxxxxx xxx xxxxx xxxxxxx xxxxxxx xxxxx xxxxxx xxxxxx xxxxx xxx xxxxx xxxxx xxxx xxxxxx. Xxx xxxx xxxx xx xxxx xx xx xx xxx xxxxxx xxxx xxxxxxx xx xxxxx. Xxx xxx xxxx xxxxx xx xxx xx.
+                                        </p>
+                                        <p>
+                                            Xxx xx xxxxx xxx xxxxx xxx xxxx xxx xxxxxx xxxxxxx xxx xxx xxxxxxx xxxx. Xxxx xx xxxxxx xx xxx xxx xxx xxx. Xxxxx xxxxxxx xxxxx xxxxxx xxxxxxx xxxxx xxxxxxx xxxxxx xxxxx xxxx xxxxxxx xx. Xxxxxxx xxxx xxxxx xxx xxxxx xxxxxx xx xxxxxxx xxxxxxx xxx. Xxx xxx xxxx xxxxxxx xxxx xxxxxx xxxx xx xxxxx xxxxxxx xxxxxxx xxxxx xxxx. Xxxxxxx xx xxx xxx xxx xx xxxxx xxxxx xxxxx. Xxxxxxxx xxx xxxxxxx xxx xxx xxx xxx xxxxxxx xxxxx. Xxxxxxx xx xxxx xx xx xx xx xxxxxxx xxxxx xxxxx xxxxxx xxxxxxx xxxxx xxxxxxx. Xxxx xxxxxxx xxxxxxx xxxxx xxxxx xxxxxx xxxxxx xxxxxx xxxxxx xxxxxxx xxxxxxx xxxxxxx xxx xxxxxxx xxxxx xxxxxxx.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card-footer small text-muted">
+                                    <div class="keywords">
+                                        <span class="keyword">University Name</span>
+                                        <span class="keyword">Course Name</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <!-- Example DataTables Card-->
+                            <div class="card">
+                                <div class="card-header">
+                                    <i class="fa fa-university"></i> University</div>
+                                <div class="card-body">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col">
+                                                <form class="form-inline my-2 my-lg-0 mr-lg-2">
+                                                    <div class="input-group">
+                                                        <input class="form-control" type="text" placeholder="Search a University...">
+                                                        <span class="input-group-append">
+                <button class="btn btn-primary" type="button">
+                  <i class="fa fa-search"></i>
+                </button>
+              </span>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="col">
+                                                <form class="form-inline my-2 my-lg-0 mr-lg-2">
+                                                    <div class="input-group">
+                                                        <input class="form-control" type="text" placeholder="Search a Course...">
+                                                        <span class="input-group-append">
+                <button class="btn btn-primary" type="button">
+                  <i class="fa fa-search"></i>
+                </button>
+              </span>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="text">
+                                        <p>
+                                            Xxx xxxxxxx xxxxxxx xxx xx xxxxxx xxxxxx xxxxx xxxxx xxxxxx xxxx xxxxxx. Xxxxxxx xxxxx xxxxx xxxxxxx xxxxx xx xxxxxx xx xxxxxxx xxxxxx xx xxxx xxxxxx. Xxxxxxxx xxx xxxxx xxx xxxxxx xxxx xxx xxxxxxx. Xxxxxx xxxxx xxx xxxxx xxxx xxxxx xxxx xx. Xxxx xxxxxx xxx xxxxx xxxxxxx xxxxxxx xxxxx xxxxxx xxxxxx xxxxx xxx xxxxx xxxxx xxxx xxxxxx. Xxx xxxx xxxx xx xxxx xx xx xx xxx xxxxxx xxxx xxxxxxx xx xxxxx. Xxx xxx xxxx xxxxx xx xxx xx.
+                                        </p>
+                                        <p>
+                                            Xxx xx xxxxx xxx xxxxx xxx xxxx xxx xxxxxx xxxxxxx xxx xxx xxxxxxx xxxx. Xxxx xx xxxxxx xx xxx xxx xxx xxx. Xxxxx xxxxxxx xxxxx xxxxxx xxxxxxx xxxxx xxxxxxx xxxxxx xxxxx xxxx xxxxxxx xx. Xxxxxxx xxxx xxxxx xxx xxxxx xxxxxx xx xxxxxxx xxxxxxx xxx. Xxx xxx xxxx xxxxxxx xxxx xxxxxx xxxx xx xxxxx xxxxxxx xxxxxxx xxxxx xxxx. Xxxxxxx xx xxx xxx xxx xx xxxxx xxxxx xxxxx. Xxxxxxxx xxx xxxxxxx xxx xxx xxx xxx xxxxxxx xxxxx. Xxxxxxx xx xxxx xx xx xx xx xxxxxxx xxxxx xxxxx xxxxxx xxxxxxx xxxxx xxxxxxx. Xxxx xxxxxxx xxxxxxx xxxxx xxxxx xxxxxx xxxxxx xxxxxx xxxxxx xxxxxxx xxxxxxx xxxxxxx xxx xxxxxxx xxxxx xxxxxxx.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card-footer small text-muted">
+                                    <div class="keywords">
+                                       <span class="keyword">University Name</span>
+                                        <span class="keyword">Course Name</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--------------------------END COMPARE-UNI---------------------------->
+            <!--------------------------RANKINGS---------------------------->
+            <div id="rankings">
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fa fa-list-ol"></i> Rankings</div>
+                    <div class="card-body">
+                        <h1>Rankings</h1>
+                        <p>
+                            These are the ranks of unis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--------------------------END OF RANKINGS---------------------------->
+            <!--------------------------STATISTICS---------------------------->
+            <div id="statistics">
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fa fa-table"></i> Statistics</div>
+                    <div class="card-body">
+                        <h1>Statistics</h1>
+                        <p>
+                            These are the statistics.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--------------------------END STATISTICS---------------------------->
+            <!--------------------------CITY---------------------------->
+            <div id="city">
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fa fa-map"></i> City</div>
+                    <div class="card-body">
+                        <h1>Birmingham</h1>
+                        <p>
+                            These are the dataset blah blah.
+                        </p>
+                    </div>
+                    <div class="card-footer small text-muted">
+                        <div class="keywords">
+                            <span class="keyword">Birmingham</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--------------------------END OF CITY---------------------------->
+            <!--------------------------DATA SOURCES----------------------------------->
+            <div id="source">
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fa fa-fw fa-link"></i>Data Sources</div>
+                    <div class="card-body">
+                        <h1>Data Sources</h1>
+                        <p>
+                            These are the dataset blah blah.
+                        </p>
+                    </div>
+                    <div class="card-footer small text-muted">
+                    </div>
+                </div>
+            </div>
+
+            <!--------------------------END DATA SOURCES---------------------------->
+
+        </div>
+
+        <!-- /.container-fluid-->
+        <!-- /.content-wrapper-->
+        <footer class="sticky-footer">
+            <div class="container">
+                <div class="text-center">
+                    <small>Copyright © Find My University and Course 2018</small>
+                </div>
+            </div>
+        </footer>
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fa fa-angle-up"></i>
+    </a>
+        <!-- Bootstrap core JavaScript-->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- Core plugin JavaScript-->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+        <!-- Page level plugin JavaScript-->
+        <script src="vendor/datatables/jquery.dataTables.js"></script>
+        <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
+        <!-- Custom scripts for all pages-->
+        <script src="js/sb-admin.min.js"></script>
+        <!-- Custom scripts for this page-->
+        <script src="js/sb-admin-datatables.min.js"></script>
+        <script>
+            $("a.nav-link").on('click', function(e) {
+                e.preventDefault();
+                $($(this).attr('href'), '#hide-and-seek').show().siblings().hide();
+            });
+            $("a").on('click', function(e) {
+                e.preventDefault();
+                $($(this).attr('href'), '#hide-and-seek').show().siblings().hide();
+            });
+        </script>
+    </div>
+</body>
+
+</html>

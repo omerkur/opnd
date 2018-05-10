@@ -1,0 +1,8 @@
+span.keyword {
+	color:#ffffff;
+	background-color:#814599;
+	padding:3px;
+	border-radius:3px;
+	position:relative;
+}
+#hide-and-seek > div {display: none;}
